@@ -87,6 +87,11 @@ p {
   margin-top: 24px;
 }
 
+
+.podcast-link-mobile{
+  display: none;
+}
+
 input {
   font-family: var(--font-all);
   font-weight: bold;
@@ -236,6 +241,10 @@ button:hover {
     left: 30px;
     top: 920px;
   }
+
+  .podcast-link-mobile{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -297,36 +306,13 @@ button:hover {
     width: 327px;
     height: 100px;
     text-align: center;
+    font-size: ;
+    line-height: 25px;
   }
 
   .podcast-link {
-    position: absolute;
-    width: 315px;
-    height: 17px;
-    left: 0;
-    top: 0;
+    display: none;
     
-  }
-
-  #spotify-pod-mobile {
-    width: 56px;
-    height: 17px;
-    background-size: contain;
-  }
-
-  #apple-pod-mobile {
-    width: 45px;
-    height: 17px;
-  }
-
-  #google-pod-mobile{
-    width: 73px;
-    height: 11px;
-  }
-
-  #pocket-pod {
-    width: 77px;
-    height: 15px;
   }
 
   .bg-black-section {
@@ -338,17 +324,71 @@ button:hover {
   }
   
 
+.podcast-link-mobile{
+  list-style-type: none;
+  display: flex;
+  position: absolute;
+  width: 315px;
+  height: 17px;
+  left: 0;
+  top: -150px;
+}
+
+#spotify-pod-mobile{
+  position: absolute;
+  width: 56px;
+  height: 17px;
+  left: 10px;
+  top: 400px;
+  background: url(assets/desktop/spotify.svg);
+  background-size: cover;
+}
+#apple-pod-mobile{
+  position: absolute;
+width: 45px;
+height: 17px;
+left: 89px;
+top: 400px;
+
+  background: url(assets/desktop/apple-podcast.svg);
+  background-size: cover;
+
+}
+#google-pod-mobile{
+  position: absolute;
+  width: 73px;
+  height: 11px;
+  left: 147px;
+  top: 403px;
+  margin: 0;
+  background: url(assets/desktop/google-podcasts.svg);
+  background-size: cover;
+}
+#pocket-pod-mobile{
+  position: relative;
+  width: 77px;
+  height: 15px;
+  left: 200px;
+  top: 401px;  
+  
+  background: url(assets/desktop/pocket-casts.svg);
+  background-size: cover;
+
+}
+
+
+
   form{
     position: absolute;
     width: 327px;
     height: 108px;
-    left: 0topx;
-    top: 465px;
+    left: 0px;
+    top: 350px;
     
   }
 
   
-  input{
+input{
 width: 293px;
 height: 46px;
 margin: 0;
