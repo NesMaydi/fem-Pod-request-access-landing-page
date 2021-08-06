@@ -87,8 +87,7 @@ p {
   margin-top: 24px;
 }
 
-
-.podcast-link-mobile{
+.podcast-link-mobile {
   display: none;
 }
 
@@ -242,7 +241,7 @@ button:hover {
     top: 920px;
   }
 
-  .podcast-link-mobile{
+  .podcast-link-mobile {
     display: none;
   }
 }
@@ -312,7 +311,6 @@ button:hover {
 
   .podcast-link {
     display: none;
-    
   }
 
   .bg-black-section {
@@ -322,90 +320,82 @@ button:hover {
   .dotted-bg {
     display: none;
   }
-  
 
-.podcast-link-mobile{
-  list-style-type: none;
-  display: flex;
-  position: absolute;
-  width: 315px;
-  height: 17px;
-  left: 0;
-  top: -150px;
-}
+  .podcast-link-mobile {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    width: 315px;
+    height: 17px;
+    left: 0;
+    top: -150px;
+  }
 
-#spotify-pod-mobile{
-  position: absolute;
-  width: 56px;
-  height: 17px;
-  left: 10px;
-  top: 400px;
-  background: url(assets/desktop/spotify.svg);
-  background-size: cover;
-}
-#apple-pod-mobile{
-  position: absolute;
-width: 45px;
-height: 17px;
-left: 89px;
-top: 400px;
+  #spotify-pod-mobile {
+    position: absolute;
+    width: 56px;
+    height: 17px;
+    left: 10px;
+    top: 400px;
+    background: url(assets/desktop/spotify.svg);
+    background-size: cover;
+  }
+  #apple-pod-mobile {
+    position: absolute;
+    width: 45px;
+    height: 17px;
+    left: 89px;
+    top: 400px;
 
-  background: url(assets/desktop/apple-podcast.svg);
-  background-size: cover;
+    background: url(assets/desktop/apple-podcast.svg);
+    background-size: cover;
+  }
+  #google-pod-mobile {
+    position: absolute;
+    width: 73px;
+    height: 11px;
+    left: 147px;
+    top: 403px;
+    margin: 0;
+    background: url(assets/desktop/google-podcasts.svg);
+    background-size: cover;
+  }
+  #pocket-pod-mobile {
+    position: relative;
+    width: 77px;
+    height: 15px;
+    left: 200px;
+    top: 401px;
 
-}
-#google-pod-mobile{
-  position: absolute;
-  width: 73px;
-  height: 11px;
-  left: 147px;
-  top: 403px;
-  margin: 0;
-  background: url(assets/desktop/google-podcasts.svg);
-  background-size: cover;
-}
-#pocket-pod-mobile{
-  position: relative;
-  width: 77px;
-  height: 15px;
-  left: 200px;
-  top: 401px;  
-  
-  background: url(assets/desktop/pocket-casts.svg);
-  background-size: cover;
+    background: url(assets/desktop/pocket-casts.svg);
+    background-size: cover;
+  }
 
-}
-
-
-
-  form{
+  form {
     position: absolute;
     width: 327px;
     height: 108px;
     left: 0px;
     top: 350px;
-    
   }
 
-  
-input{
-width: 293px;
-height: 46px;
-margin: 0;
-}
+  input {
+    width: 293px;
+    height: 46px;
+    margin: 0;
+  }
 
-button{
-position: relative;
-width: 326px;
-height: 46px;
-left: 0;
-top: 32px;
-font-size: 14px;
-line-height: 28px;
-}
+  button {
+    position: relative;
+    width: 326px;
+    height: 46px;
+    left: 0;
+    top: 32px;
+    font-size: 14px;
+    line-height: 28px;
+  }
 
-#error-email{
+  #error-email {
     margin-top: -40px;
-}
-
+  }
 }
