@@ -1,0 +1,194 @@
+:root{
+    --title-publish-n-button: #54E6AF;
+    --title-everywhere: ; #FFFFFF;
+    --paragraph: #C2CBE5;
+    --input: #2C344B;
+    --btn-hover: #B3FFE2;
+    --logo-color: #5A668A;
+    --bg-txt-btn: #121725;
+}
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Chivo', sans-serif;
+    min-height: 900px;
+    background-color: var(--bg-txt-btn);
+    overflow-x: hidden;
+}
+
+main{
+    
+    position: absolute;
+    width: 1275px;
+    height: 640px;
+    left: 165px;
+    top: 130px;
+}
+
+.logo{
+    width :134,85px;
+    height: 56px;
+    position: relative;
+    top: 102px;
+    left: 165px;
+    background: url(assets/desktop/logo.svg) no-repeat ;
+}
+
+.bg-black-section{
+    width: 723px;
+    height: 509px;
+    position: absolute;
+    top: 261px;
+    left: 165px;
+    background-color: var(--bg-txt-btn);
+    z-index: 0;
+}
+
+.img-host{
+    width: 888px;
+    height: 640px;
+    background-image: url(assets/desktop/image-host.jpg);
+    position: absolute;
+    top: 130px;
+    left: 552px;
+    z-index: -1;
+}
+
+.pod-content{
+    width: 665px;
+    height: 421px;
+    position: absolute;
+    top: 349px;
+    left: 165px;
+}
+
+.dotted-bg{
+    background: url(assets/desktop/bg-pattern-dots.svg);
+    width: 232px;
+    height: 104px;
+    position: absolute;
+    top: 718px;
+    left: 1208px;
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 769px){
+    body{
+        min-height: 1024px;
+    }
+    .logo{
+    position: absolute;
+    width: 134.85px;
+    height: 56px;
+    left: 39px;
+    top: 50px;
+    }
+
+    main{
+        width: 768px;
+        height: 1024px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .bg-black-section{
+    width: 635px;
+    height: 509px;
+    position: absolute;
+    left: 39px;
+    top: 258px;
+    background-color: var(--bg-txt-btn);
+    }
+
+    .img-host{
+        display: none;
+    }
+
+    .img-host-tablet{
+    background-image: url(assets/tablet/image-host.jpg);
+    position: absolute;
+    width: 491px;
+    height: 767px;
+    left: 277px;
+    top: 0px;
+    }
+
+    .pod-content{
+        position: absolute;
+    width: 635px;
+    height: 416px;
+    left: 39px;
+    top: 351px;
+    }
+
+    .dotted-bg{
+    position: absolute;
+    width: 232px;
+    height: 104px;
+    left: 30px;
+    top: 920px;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+
+    body{
+        margin: 0;
+        padding: 0;
+        max-height: 667px;
+        overflow-x: hidden;
+    }
+
+    .logo{
+        position: absolute;
+width: 134.85px;
+height: 56px;
+left: 120px;
+top: 62px;
+
+    }
+    .img-host, .img-host-tablet{
+        display: none;
+    }
+
+
+    main{
+        position: absolute;
+        width: 375px;
+        height: 667px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .img-host-mobile{
+        position: absolute;
+    width: 375px;
+    height: 667px;
+    left: 0px;
+    top: 0px;
+        background-image: url(assets/mobile/image-host.jpg);
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    }
+
+    .pod-content{
+    position: absolute;
+width: 327px;
+height: 398px;
+left: 24px;
+top: 175px;
+    }
+
+    .bg-black-section{
+        display: none;
+    }
+
+    .dotted-bg{
+        display: none;
+    }
+}
